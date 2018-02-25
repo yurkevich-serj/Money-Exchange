@@ -1,6 +1,6 @@
 'use strict'
 module.exports = function makeExchange(currency) {
-    let result = []
+    let result = {};
     if(currency <= 0) {
     	return result;
     }
